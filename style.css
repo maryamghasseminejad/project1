@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgb(39, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+button{
+    font-size: 50px;
+    width: 500px;
+    height: 200px;
+    border: 1px;
+    background-color: aquamarine;
+    transition: 0.3 ease;
+    border-radius: 100px;
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(38, 208, 238);
+    box-shadow: 0 0 5px #a7e4f7,
+                 0 0 20px #a7e4f7,
+                 0 0 60px #a7e4f7,
+                 0 0 150px #a7e4f7;
+}
